@@ -29,7 +29,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: block;                                                                          
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -50,6 +50,7 @@ body {
 
 h3 {
 	font-size: 45px;
+	color: white;
 }
 .topnav {
   overflow: hidden;
@@ -99,26 +100,53 @@ h3 {
 .social{
 	width: 95vw;
 }
-
 .grid-4col {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 2vh;
-	border: 2px white solid;
+	border: 5px white solid;
 }
 
-.grid-colspan2-a {
-	background-color: #EAEAEA;
-	padding: 1em;
-	grid-column-start: 1;
-	grid-column-end: span 2;
-	text-align: justify;
-}
-.portrait {
-	background-color: #EAEAEA;
+
+.grid-colspan2-c {
 	padding: 1em;
 	grid-column-start: 3;
 	grid-column-end: span 2;
+	text-align: justify;
+}
+.grid-2col {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2vh;
+	border: 5px white solid;
+}
+
+.grid-colspan2-a {
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	text-align: center;
+}
+
+.grid-6col {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	border: 5px white solid;
+}
+
+.grid-colspan6-a {
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	text-align: center;
+}
+	
+.portrait {
+	background-color: #EAEAEA;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-row-start:2;
+	grid-column-end: span 1;
 	text-align: justify;
 }
 
